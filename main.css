@@ -1,0 +1,307 @@
+	@import url("fa/css/font-awesome.min.css");
+
+		.footer{
+			background-color: #2298FF;
+			opacity: .9;
+			left: 0;
+			bottom: 0;
+			max-width: 100%;
+			min-width: 100%;
+
+		}
+		.foot-line{
+			color: white;
+			margin-left: 50px;
+			font-size: 23px;
+			font-family: bold;
+
+
+		}
+		.footer >*{
+			padding: 2rem;
+			margin:0;
+		}
+		.copy{
+			font-size: 18px;
+			font-family: bold;
+			font-weight: bold;
+
+		}
+		.parallax{
+			background-image: url("nk2.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 1;
+		}
+		.pad{
+			border-left: 20px;
+			padding-right:20px;
+			background-color: red;
+		}
+		.img-edit{
+			height: 500px;
+			
+
+		}
+		.nav-mar{
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+		.nav-atch{
+			
+			opacity: 1;
+		}
+		
+		.icon{
+			padding-right: 10px;
+		}
+		.fn1{
+			font-size: 20px;
+			padding-right: 20px;
+		}
+		#fn2{
+			padding-left: 80px;
+			
+		}
+		.icon:hover{
+			background-color: transparent;
+
+		}
+		.fn1:hover{
+			box-shadow: 3px 3px 6px 6px black;
+		}
+
+		.btnh:hover{
+			box-shadow: 2px 2px 5px 7px  white;
+		}
+		
+		.inner{
+			overflow: hidden;
+
+		}
+		.inner img{
+			transition: all 1.5s ease;
+		}
+		.inner:hover img{
+			transform: scale(1.6);
+		}
+		.jumb{
+			width: 100%;
+			height: 70px;
+		}
+		.card-im{
+			width: 17rem;
+			
+		}
+		.card-im:hover{
+			box-shadow: 5px 5px 5px 5px  black;
+		}
+
+/*patient registration*/
+.parallax2{
+			background-image: url("reg.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 1;
+
+		}
+		.InputWithIcon input[type="text"]{
+			padding-left: 40px;
+		}
+		.InputWithIcon input[type="date"]{
+			padding-left: 40px;
+		}
+		.InputWithIcon input[type="email"]{
+			padding-left: 40px;
+		}
+		.InputWithIcon input[type="password"]{
+			padding-left: 40px;
+		}
+		.InputWithIcon{
+			position: relative;
+		}
+		.InputWithIcon i{
+			position: absolute;
+			left: 0;
+			top:4px;
+			padding:8px 9px;
+			color: #aaa;
+			transition: .3s;
+			font-size: 25px;
+
+		}
+		.InputWithIcon input[type="text"]:focus +i{
+			color: dodgerblue;
+		}
+		.InputWithIcon input[type="date"]:focus +i{
+			color: dodgerblue;
+		}
+		.InputWithIcon input[type="password"]:focus +i{
+			color: dodgerblue;
+		}
+		.InputWithIcon textarea[type="text"]{
+			padding-left: 40px;
+		}
+		
+		.cust{
+			padding-left: 40px;
+		}
+		.InputWithIcon select:focus +i{
+			color: dodgerblue;
+		}
+		.InputWithIcon textarea[type="text"]:focus +i{
+			color: dodgerblue;
+		}
+		.InputWithIcon input[type="email"]:focus +i{
+				color: dodgerblue;	
+		}
+		.op{
+			opacity: 0.9;
+		}
+		.sh{
+			color: white;
+			text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+		}
+		.re_sh{
+			color: white;
+			text-shadow: 2px 2px 4px #000000; 
+			font-size: 50px;
+			font-family: bold;
+			 
+		}
+		.lbl_name{
+			font-size: 23px;
+			font-family: bold;
+			font-style: bold;
+		
+
+		}
+		.smal{
+			font-size: 20px;
+			font-family: bold;
+			text-shadow: 2px 2px 4px #000000;
+			color: white; 
+
+		}
+		#jumb{
+			display: none;
+		}
+		.btn-noti{
+			position: relative;
+		}
+		.btn-noti:hover{
+			background-color: red;
+		}
+		.btn-noti .badge{
+			position: absolute;
+			top: -10px;
+			right: -10px;
+			padding: 5px 10px;
+			border-radius: 100%;
+			background-color: red;
+			color: white;
+		}
+		/*blood group spliting*/
+		.parallax1{
+			background-image: url("reg.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 1;
+		}
+		/*patient details retriving*/
+		.lbl-text{
+			font-size: 15px;
+			color: black;
+			font-weight: bold;
+
+		}
+		.table-mar{
+			margin-left: 30px;
+		}
+		.text-align{
+			margin-left: 50px;
+		}
+		/*donar register*/
+		.parallax3{
+			background-image: url("reg3.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 1;
+		}
+		.sh1{
+			color: white;
+			font-size: 38px;
+			text-shadow: 7px 20px 22px black, 5px 10px 30px blue, 0 0 10px darkblue;
+			font-weight: bold; 
+		}
+		/*button shadow*/
+		.column{
+			margin-left: 130px;
+		}
+		.parallax4{	
+				background-image: url("login1.jpg");
+				background-attachment: fixed;
+				background-size: cover;
+				background-repeat: no-repeat;
+				opacity: 1;
+		}
+		.sh2{
+			text-shadow: 2px 10px 12px #000000;
+			color: white;
+			font-weight: bold;
+			font-size: 40px;
+		}
+		.op1{
+			opacity: 0.9;
+		}
+		.cust1{
+			padding-left: 50px;
+		}
+		.sh4{
+			text-shadow: 5px 15px 18px  #000000;
+			color: white;
+			font-weight: bold;
+			font-size: 40px;
+		}
+		.radius{
+			border-radius: 1px 20px 20px;
+		}
+		.hov{
+			border-radius: 15px;
+		}
+		.b_rad{
+			border-radius: 10px 60px 30px;
+		}
+		.btn-h{
+			width: 150px;
+			height: 65px;
+			border-radius: 2px 13px 10px;
+		}
+		.sh5{
+			text-shadow: 2px 2px 4px  #000000;
+			color: white;
+			font-weight: bold;
+			font-size: 40px;
+		}
+.shadow-box{
+	box-shadow: 2px 2px 20px 10px black;
+}
+.forgot{
+	font-size: 20px;
+	
+}
+.forgot:hover{
+	font-size: 23px;
+	
+
+}
+.hover-btn:hover{
+	box-shadow: 2px 3px 5px 5px black;
+}
+.font{
+	font-size: 20px;
+}
